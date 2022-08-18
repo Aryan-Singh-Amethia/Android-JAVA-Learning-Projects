@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SECOND PAGE"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@color/black">
+
+    </TextView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/newsRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_default_radius">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
